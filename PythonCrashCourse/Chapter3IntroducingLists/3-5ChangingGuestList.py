@@ -1,0 +1,10 @@
+guests = ['Steve Jobs', 'Adolph Hitler', 'Mum']
+print(f"Come for a dinner {guests[0]}")
+print(f"Come for a dinner {guests[1]}")
+print(f"Come for a dinner {guests[2]}")
+print(f"Unfortunately {guests[1]} can't make it")
+guests.insert(1, "Bill Gates")
+print(f"Instead {guests[1]} will be coming")
+print(f"Come for a dinner {guests[0]}")
+print(f"Come for a dinner {guests[1]}")
+print(f"Come for a dinner {guests[2]}")
